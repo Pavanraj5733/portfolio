@@ -244,6 +244,7 @@ section{
 
     .main-container .content{
         width: 80%;
+        height: 180%;
     }
     .social-links i{
         width: 2.5rem;
@@ -253,27 +254,67 @@ section{
 
     .main-container .image{
         z-index: -1;
-        width: 50%;
-        height: 60%;
+        width: 30%;
+        height: 50%;
+    }
+    #about{
+        height:70%;
     }
     #about .skill-logos{
         width: 50%;
     } 
+    #contact{
+        height: 100%;
+    }
+    #contact .contact-content{
+        width: 20%;
+        height:120%;
+        
+    }
+    #contact .contact-content2{
+        width: 40%;
+        
+    }
+    #contact .contact-content2 a{
+        font-size: 13px;
+        
+    }
 }
 
 
 @media (max-width:440px) {
     .main-container .image{
-        width: 70%;
-        height: 60%;
+        width: 30%;
+        height: 30%;
     }
 
     .main-container .content{
-        width: 80%;
+        width: 70%;
+        height: 80%;
     }
 
     .main-container button{
         margin-top: 15px;
+        font-size: 10px;
+    }
+    #about{
+        width: 60%;
+        height: 80%;
+    }
+    li{
+        font-size: 10px;
+    }
+     #contact .contact-content{
+        width: 20%;
+        
+    }
+    #contact .contact-content2{
+        width: 20%;
+        
+    }
+    #contact .contact-content2 a{
+        font-size: 10px;
+        
     }
 }
 
