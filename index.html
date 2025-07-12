@@ -21,7 +21,7 @@
                 Pavan <span>Raj</span>
             </div>
             <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
@@ -38,11 +38,14 @@
             </div>
         </div>
     </nav>
-    <section>
+    <section id="home">
         <div class="main-container">
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="imgg.jpg" alt="">
+            </div>
             <div class="content">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Pavan</span></h1>
-                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">| Software Developer</label></div>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">Software Developer</label></div>
                 <br>
                 <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am Pavan Raj, a passionate Full-Stack developer with 3 years of work experience, skilled in HTML, CSS, JavaScript, React and NodeJS. Reach out if you'd like to know more!</p>
                 <br>
@@ -54,11 +57,8 @@
                 </div>
                 <br>
                 <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
-                    <button>Download CV</button>
+                    <a href="Pavan-Raj_CV.pdf" target="_blank"><button>View CV</button></a>
                 </div>
-            </div>
-            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
-                <img src="imgg.jpg" alt="">
             </div>
         </div>
     </section>
@@ -80,31 +80,52 @@
         </div> 
             <div class="skill-logos">
                 <ul>
-                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-react" style="color: #74C0FC;"></i> React</li>
+                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-react" style="color: #74C0FC;"></i><span> React</span></li>
                     <li class="icon"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-node"></i></li>
                     <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-js"></i></li>
                     <li class="db" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><img src="db1.png" alt="database"></li>
-                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-html5"></i> HTML</li>
-                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-html5"></i> <span> HTML</span></li>
+                    <li class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="fa-brands fa-css3-alt"></i><span> CSS</span></li>
                 </ul>
             </div>
         </div>
     </section>
 
 
-
-    <section id="contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
-        <div class="contact-cont">
-            <div class="contact-content" >
-                <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">Contact</h1>
-                <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">Feel free to reach out!</h3>
+    <section id="projects">
+        <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Projects</h1>
+        <div class="project-cont" >
+            <div class="project-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <img src="currency.png" alt="">
+                <h2>Currency Converter</h2>
+                <a href="https://currency-converter-26xa.onrender.com/" target="_blank"><button href>Demo</button></a>
             </div>
-            <div class="contact-content2">
-                <a target="_blank" href="https://www.linkedin.com/in/pavan-raj77/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/pavan-raj77</a>
-                    <a target="_blank" href="https://github.com/Pavanraj5733/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i> github.com/Pavanraj5733</a>
-                    <a target="_blank" href="mailto:pavanraj1777@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-solid fa-envelope"></i> pavanraj1777@gmail.com</a>
+            <div class="project-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <img src="ecom.png" alt="">
+                <h2>WearCart - eCom</h2>
+                <a href="https://ecommerce-app-1-82rv.onrender.com" target="_blank"><button href>Demo</button></a>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <div class="contact-cont">
+            <div class="contact-content" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <h1 >Contact</h1>
+                <h3 >Feel free to reach out!</h3>
+            </div>
+            <div class="contact-content2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <a target="_blank" href="https://www.linkedin.com/in/pavan-raj77/" ><i class="fa-brands fa-linkedin"></i> linkedin.com</a>
+                    <a target="_blank" href="https://github.com/Pavanraj5733/" ><i class="fa-brands fa-github"></i> github.com</a>
+                    <a target="_blank" href="mailto:pavanraj1777@gmail.com" ><i class="fa-solid fa-envelope"></i> pavanraj1777@gmail.com</a>
             </div>
         </div>
+        <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">&copy; 2025 Pavan Raj. All rights reserved.</p>
     </section>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
